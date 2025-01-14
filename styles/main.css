@@ -16,7 +16,7 @@ body {
     align-items: center; /* Center items vertically */
     margin: 8px; /* Remove margin */
     padding: 0; /* Remove padding */
-    width: 100%; /* Take the full viewport width */
+    width: 100wh; /* Take the full viewport width */
     height: 50px; /* Set a fixed height for the nav */
     box-sizing: border-box; /* Ensure padding is included in width */
 }
@@ -115,7 +115,7 @@ h2 {
 }
 
 .news-link:hover h3 {
-    color: #ee0028;
+    color: rgb(145, 23, 23);
 }
 
 .featured-list {
