@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "RegFont";  /* Custom name for the font */
+    src: url('/fonts/regular.ttf') format('opentype'); /* Ensure correct path to the OTF file */
+    font-weight: normal;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: "BoldFont";  /* Define a custom name for the font */
+    src: url('/fonts/bold.ttf') format('opentype'); /* Ensure correct path to the bold font */
+    font-weight: normal; /* Specify that this is a bold font */
+    font-style: normal;
+}
+
+body {
+    font-family: "RegFont", sans-serif; /* Apply RegFont to the entire body */
+    background-color:rgb(255, 255, 255);  /* Set background color */
+    height: 100%;  /* Ensure body takes full height */
+    margin: 0;  /* Remove margin for a clean layout */
+    padding: opx;  /* Optional: Padding for the body */
+}
+
+.headd {
+    font-family: "BoldFont", sans-serif; /* Apply BoldFont for bold text */
+    color: rgb(255, 255, 255);  /* White text color */
+    font-size: 24px; /* Fixed font size value */
+    padding: 13px;  /* Padding for spacing */
+    background-color: rgb(145, 23, 23);
+}
+
+.info {
+    font-family: "RegFont", sans-serif; /* Apply RegFont to info section */
+    background-color: white;  /* White background for the info section */
+    height: 100vh;  /* Make the info section fill the entire viewport height */
+    padding: 20px;  /* Optional: Add padding for better spacing */
+   
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+.social-links {
+    list-style-type: none;
+    padding: 0;
+}
+.social-links li {
+    display: inline;
+    margin: 0 10px;
+}
+.social-links a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.social-links a:hover {
+    color: #1da1f2; /* Change to the desired hover color */
+}

@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "RegFont";  /* Custom name for the font */
+    src: url('/fonts/regular.ttf') format('opentype'); /* Link to the OTF file */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "RegFont", sans-serif;
+}
+
+/* Make the navigation menu span full width */
+.menu {
+    display: flex; /* Arrange items horizontally */
+    justify-content: space-evenly; /* Space items evenly */
+    align-items: center; /* Center items vertically */
+    margin: 8px; /* Remove margin */
+    padding: 0; /* Remove padding */
+    width: 100vw; /* Take the full viewport width */
+    height: 50px; /* Set a fixed height for the nav */
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+/* Style the links to fill equal space */
+.menu a {
+    text-decoration: none; /* Remove underline from links */
+    color: rgb(176, 80, 80); /* Set text color to white */
+    flex: 1;/* Make each link take equal space */
+    text-align: center; /* Center-align the text */
+    line-height: 30px; /* Vertically center the text within the nav */
+    font-weight: bold; /* Make text bold for better visibility */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+     /* Small margin around each link */
+    border-width: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: #ee0028; /* Optional: Rounded corners for the border */
+}
+
+/* Hover effect */
+.menu a:hover {
+    background-color: #a39c9d; /* Set the background to red on hover */
+    color: white; /* Ensure text remains white */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Active effect */
+.menu a:active {
+    transform: scale(0.95); /* Slightly shrink on click */
+}
+
+.menu a.selected {
+    background-color: rgb(145, 23, 23); /* Red background for selected item */
+    color: white; /* White text when selected */
+    border-color: #58121e; /* Red border for selected item */
+}
+
+#todays-news,
+#world-news,#sports,#entertainment {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ffffff;
+}
+
+.headd {
+    font-family: "RegFont", sans-serif;
+}
+
+h2 {
+    color: rgb(145, 23, 23);
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.news-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.news-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 15px;
+}
+
+.news-image {
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.news-link {
+    text-decoration: none;
+    color: #333;
+    width: calc(100% - 120px); /* To ensure proper alignment */
+}
+
+.news-link h3 {
+    font-size: 18px;
+    color: #2d294e;
+    margin: 0;
+}
+
+.news-link p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0 0 0;
+    text-decoration: none; /* Remove underline from paragraph */
+}
+
+.news-link:hover h3 {
+    color: #ee0028;
+}
+
+.featured-list {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+    gap: 20px;
+  }
+  .featured-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+  }
+  .featured-item:hover {
+    transform: scale(1.05);
+  }
+  .thumbnail {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .title {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+    display: -webkit-box;           
+    -webkit-box-orient: vertical; 
+    -webkit-line-clamp: 3;        
+    overflow: hidden;              
+    text-overflow: ellipsis;      
+    width: 100%;                  
+  }
+  

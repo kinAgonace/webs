@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/main.css">
+    <title>BH News</title>
+</head>
+<body style="height: 100%; margin: 0;"> 
+    <header>
+        <img style="margin: 16px;" src="/images/title.png" alt="Title Image" width="50%">
+    </header>
+    <div style="
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)), url('/images/banner.png');
+    background-size: cover;
+    background-position: center;
+    height: 20%;
+">
+   </div>
+
+<nav class="menu">
+    <a href="#todays-news" class="selected">Today's News</a>
+    <a href="#world-news">World News</a>
+    <a href="#sports">Sports</a>
+    <a href="#entertainment">Entertainment</a>
+</nav>
+
+<section id="todays-news">
+    <h2 class="headd"><u>Today's News</u></h2>
+    <ul class="news-list" id="todaysNewsList"></ul>
+</section>
+
+<section id="world-news">
+    <h2 class="headd"><u>World News</u></h2>
+    <ul class="news-list" id="worldNewsList"></ul>
+</section>
+
+<script src="script/dashboard.js"></script>
+<script>
+fetch('/internal_database/news.json')
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+      return response.json();
+    })
+    .then(data => {
+        console.log('Fetched data:', data); // Log the entire fetched data
+
+        // Filter Today's News and World News from the data
+        const todaysNews = data.filter(item => item.id === 1);
+        const worldNews = data.filter(item => item.category === "World News");
+
+        // Log the filtered results
+        console.log('Todays News:', todaysNews);  // Log filtered Today's News
+        console.log('World News:', worldNews);    // Log filtered World News
+
+        const todaysNewsList = document.getElementById('todaysNewsList');
+        const worldNewsList = document.getElementById('worldNewsList');
+
+        populateNewsList(todaysNews, todaysNewsList);
+        populateNewsList(worldNews, worldNewsList);
+    })
+    .catch(error => {
+        console.error('Error fetching data:', error);
+    });
+
+// Helper function to populate a news list
+function populateNewsList(newsArray, container) {
+    newsArray.forEach(item => {
+        const listItem = document.createElement('li');
+        listItem.className = 'news-item';
+
+        listItem.innerHTML = `
+            <img src="${item.image}" alt="News Image" class="news-image">
+            <a href="${item.link}" target="_blank" class="news-link">
+                <h3>${item.title}</h3>
+                <p>${item.description}</p>
+            </a>
+        `;
+
+        container.appendChild(listItem);
+    });
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #004589;
+    padding: 10px;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #0073e6;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.menu a:hover {
+    background-color: #005bb5;
+    transform: scale(1.1);
+}
+.menu a:active {
+    transform: scale(0.95);
+}

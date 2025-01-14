@@ -1,0 +1,87 @@
+[
+    {
+      "category": "Today's News",
+      "title": "Philippines Files Protest Over Beijing's 'Escalatory Actions' in South China Sea",
+      "description": "The Philippines has called on Beijing to desist from 'escalatory actions' at a South China Sea shoal, emphasizing the need for adherence to international law and the 2016 arbitral ruling that invalidated China's extensive claims in the area.",
+      "image": "https://example.com/philippines-protest.jpg",
+      "link": "https://www.usnews.com/news/world/articles/2025-01-13/philippines-files-protest-over-beijings-escalatory-actions-in-south-china-sea"
+    },
+    {
+      "category": "Today's News",
+      "title": "Philippines' Marcos Signs Record $109 Billion Budget for 2025",
+      "description": "President Ferdinand Marcos Jr. has signed into law the 2025 national budget, marking a 10% increase in government spending aimed at bolstering infrastructure, education, and healthcare sectors.",
+      "image": "https://example.com/philippines-budget.jpg",
+      "link": "https://www.reuters.com/world/asia-pacific/philippines-marcos-signs-into-law-record-109-bln-budget-2025-2024-12-30"
+    },
+    {
+      "category": "Today's News",
+      "title": "Philippines Implements Universal Health Coverage Plan",
+      "description": "The Philippines' government has rolled out its Universal Health Coverage (UHC) law to ensure that all Filipinos have access to affordable and quality health services. The plan includes expanded health insurance benefits for marginalized communities.",
+      "image": "https://example.com/philippines-health-coverage.jpg",
+      "link": "https://www.rappler.com/nation/philippines-universal-health-coverage-plan-2024"
+    },
+    {
+      "category": "Today's News",
+      "title": "Philippine Government Expands Metro Manila Flood Control Program",
+      "description": "In response to persistent flooding during the rainy season, the Philippine government has announced a multi-billion peso initiative to improve flood control infrastructure across Metro Manila, including drainage systems and floodgates.",
+      "image": "https://example.com/metro-manila-flood-control.jpg",
+      "link": "https://www.philstar.com/headlines/2024/11/23/philippines-expands-metro-manila-flood-control"
+    },
+    {
+      "category": "World News",
+      "title": "Japan, Philippines, and US Vow to Deepen Cooperation in Face of China's Behavior",
+      "description": "Leaders from Japan, the Philippines, and the United States have committed to enhancing their trilateral cooperation in response to increasing tensions in the Asia-Pacific region, particularly concerning China's actions in the South China Sea.",
+      "image": "https://example.com/japan-philippines-us.jpg",
+      "link": "https://www.reuters.com/world/japan-philippines-us-vow-deepen-cooperation-manila-says-2025-01-13"
+    },
+    {
+      "category": "World News",
+      "title": "World Breaches 1.5°C Global Warming Target for First Time in 2024",
+      "description": "In 2024, global temperatures exceeded 1.5°C above pre-industrial levels for the first time, highlighting the rapid acceleration of climate change and surpassing the targets set by the 2015 Paris Agreement.",
+      "image": "https://example.com/global-warming-1.5C.jpg",
+      "link": "https://www.ft.com/content/fd914266-71bf-4317-9fdc-44b55acb52f6"
+    },
+    {
+      "category": "World News",
+      "title": "US Senate Passes Historic Climate Bill to Cut Emissions by 50% by 2030",
+      "description": "The U.S. Senate has passed a landmark climate change bill that mandates the reduction of carbon emissions by 50% by 2030. This bill aims to accelerate the transition to renewable energy sources and invest in clean technology.",
+      "image": "https://example.com/us-climate-bill.jpg",
+      "link": "https://www.nytimes.com/2024/12/15/us/politics/us-senate-passes-historic-climate-bill.html"
+    },
+    {
+      "category": "World News",
+      "title": "Global Economic Slowdown Expected to Affect 2024 Growth Rates",
+      "description": "Experts predict that global economic growth will slow significantly in 2024, mainly due to ongoing supply chain disruptions, high inflation, and rising interest rates. The International Monetary Fund has downgraded its global growth forecast.",
+      "image": "https://example.com/global-economy.jpg",
+      "link": "https://www.bbc.com/news/business-2024-01-12-global-slowdown"
+    },
+    {
+      "category": "World News",
+      "title": "Russian Invasion of Ukraine: Latest Updates on the Conflict",
+      "description": "The ongoing war between Russia and Ukraine continues to unfold in 2024. The conflict has resulted in thousands of casualties and a global humanitarian crisis. International diplomatic efforts remain focused on securing a ceasefire and providing aid.",
+      "image": "https://example.com/ukraine-war.jpg",
+      "link": "https://www.cnn.com/world/2024/01/10/russia-ukraine-conflict-updates"
+    },
+    {
+      "category": "World News",
+      "title": "UK Announces New Immigration Reform to Address Labour Shortages",
+      "description": "The United Kingdom has introduced a new immigration policy aimed at addressing its labour shortages. The reforms include creating new visa categories to attract skilled workers from abroad.",
+      "image": "https://example.com/uk-immigration-reform.jpg",
+      "link": "https://www.theguardian.com/uk-news/2024/jan/11/uk-announces-new-immigration-reform"
+    },
+    {
+      "category": "World News",
+      "title": "China's Economic Rebound Drives Global Trade Growth in 2024",
+      "description": "China's economy is expected to lead global trade growth in 2024, as it rebounds from the pandemic and pushes for greater regional economic integration. This is expected to boost exports and investments in the Asia-Pacific region.",
+      "image": "https://example.com/china-economic-rebound.jpg",
+      "link": "https://www.bbc.com/news/world-asia-china-2024-january"
+    },
+    {
+      "category": "World News",
+      "title": "African Nations Join Forces to Combat Climate Change and Protect Biodiversity",
+      "description": "African countries are working together to combat climate change and preserve biodiversity, with a focus on reducing emissions, conserving forests, and investing in renewable energy projects across the continent.",
+      "image": "https://example.com/africa-climate-change.jpg",
+      "link": "https://www.aljazeera.com/news/2024/01/09/african-nations-climate-change-action"
+    }
+  ]
+  
