@@ -123,6 +123,7 @@ h2 {
     overflow-x: auto;
     padding: 10px;
     gap: 20px;
+    width:100vh;
   }
   .featured-item {
     background-color: #fff;
