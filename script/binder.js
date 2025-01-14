@@ -38,7 +38,7 @@ fetch('internal_database/news.json')
   
       listItem.innerHTML = `
       <img src="${item.image}" alt="News Image" class="news-image">
-      <a href="/files/view1.html?id=${item.id}" class="news-link">
+      <a href="files/view1.html?id=${item.id}" class="news-link">
           <h3>${item.title}</h3>
           <p>${item.description}</p>
       </a>
@@ -49,7 +49,7 @@ fetch('internal_database/news.json')
     });
   }
   
-  fetch('/internal_database/news.json')
+  fetch('internal_database/news.json')
   .then(response => response.json())
   .then(data => {
     console.log('Data fetched:', data);
